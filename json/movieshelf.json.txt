@@ -1,0 +1,21 @@
+{"movies": [
+		{
+			"id": 1,
+			"name": "The Thing",
+			"director": ["John Carpenter"],
+			"cast": ["Kurt Russel", "Keith David", "Wilford Brimley"],
+			"music": ["Ennio Morricone"],
+			"year": 1982
+		},
+		{
+			"id": 2,
+			"name": "Escape from New York",
+			"director": ["John Carpenter"],
+			"cast": ["Kurt Russel", "Harry Dean Stanton", "Isaac Hayes"],
+			"music": ["Ennio Morricone"]
+			"year": 1981
+		}
+	]
+}
+		
+	
