@@ -7,7 +7,9 @@
     </head>
     <body>
         <div id="movies">
-            {{ movielist }}
+            <movie-list v-for="movie in movies" v-bind:key="movie.id" v-bind:movie="movie">
+                
+            </movie-list>
         </div>
 
     </body>

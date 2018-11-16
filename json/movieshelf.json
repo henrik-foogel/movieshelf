@@ -5,7 +5,10 @@
 			"director": ["John Carpenter"],
 			"cast": ["Kurt Russel", "Keith David", "Wilford Brimley"],
 			"music": ["Ennio Morricone"],
-			"year": 1982
+			"year": 1982,
+			"genre": "Horror",
+			"secondgenre": "Sci-Fi",
+			"shelf": "John Carpenter"
 		},
 		{
 			"id": 2,
@@ -13,7 +16,21 @@
 			"director": ["John Carpenter"],
 			"cast": ["Kurt Russel", "Harry Dean Stanton", "Isaac Hayes"],
 			"music": ["Ennio Morricone"],
-			"year": 1981
+			"year": 1981,
+			"genre": "Sci-Fi",
+			"secondgenre": "Action",
+			"shelf": "John Carpenter"
+		},
+		{
+			"id": 3,
+			"name": "Child's Play",
+			"director": ["Tom Holland"],
+			"cast": ["Brad Dourif", "Catherine Hicks ", "Chris Sarandon"],
+			"music": ["Joe Renzetti "],
+			"year": 1988,
+			"genre": "Horror",
+			"secondgenre": "Thriller",
+			"shelf": "Horror/Thriller"
 		}
 	]
 }
