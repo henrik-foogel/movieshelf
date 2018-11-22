@@ -27,13 +27,25 @@
 			"id": 3,
 			"name": "Child's Play",
 			"director": ["Tom Holland"],
-			"cast": ["Brad Dourif", "Catherine Hicks ", "Chris Sarandon"],
-			"music": ["Joe Renzetti "],
+			"cast": ["Brad Dourif", "Catherine Hicks", "Chris Sarandon"],
+			"music": ["Joe Renzetti"],
 			"year": 1988,
 			"genre": "Horror",
 			"secondgenre": "Thriller",
 			"rating": 7,
 			"shelf": "Horror/Thriller"
+		},
+		{
+			"id": 4,
+			"name": "Batman v Superman",
+			"director": ["Zack Snyder"],
+			"cast": ["Ben Affleck", "Henry Cavill", "Amy Adams"],
+			"music": ["Hans Zimmer", "Junkie XL"],
+			"year": 2016,
+			"genre": "Action",
+			"secondgenre": "Drama",
+			"rating": 9,
+			"shelf": "Steelbooks"
 		}
 	]
 }

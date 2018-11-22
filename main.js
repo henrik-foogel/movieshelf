@@ -13,9 +13,9 @@ Vue.component ('movie-list', {
     template: `
     <div class="films">
         <h2>{{ movie.name }}</h2>
-        <p>Director: <span>{{ movie.director }}</span></p>
-        <p>Cast: <span>{{ movie.cast }}</span></p>
-        <p>Music: <span>{{ movie.music }}</span></p>
+        <p>Director: <span v-for="director in movie.director">{{ director }}</span></p>
+        <p>Cast: <span v-for="cast in movie.cast">{{ cast }}</span></p>
+        <p>Music: <span v-for="music in movie.music">{{ music }}</span></p>
         <p>Year: <span>{{ movie.year }}</span></p>
         <p>Genre: <span>{{ movie.genre }}</span></p>
         <p>Secondary Genre: <span>{{ movie.secondgenre }}</span></p>
