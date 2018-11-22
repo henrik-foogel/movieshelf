@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6b8ba4;
+}
+
+.uninavbar {
+	overflow: hidden;
+    background-color: black;
+    margin: -10px;
+    font-weight: bold
+}
+
+.uninavbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.uninavbar a:hover {
+	background-color: #6b8ba4;
+	color: #ffffff;
+}
+
+.active {
+	background-color: #6b8ba4;
+	color: #ffffff;
+}
+
+.uninavbar .icon {
+	display: none;
+}
+
+#movie-list {   
+    background-color: #000000;
+    width: 50%;
+    margin: 0 24.99999%;;
+}
+
+.film-list {
+    border-radius: 20px;
+}
+
+.film-list h2 {   
+    border-radius: 20px;
+    background-color: #000000;
+    text-shadow: 1px 1px #6b8ba4;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #000000;
+}
+
+.films {
+    border: 2px solid #6b8ba4;
+    border-radius: 10px;
+    padding: 0 20px 10px;
+    margin-bottom: 20px;
+}
+
+.films h2 {
+    border-bottom: 4px solid #6b8ba4;    
+    border-radius: 4px;
+    background-color: #000000;
+    text-shadow: 1px 1px #6b8ba4;
+    font-size: 30px;
+    text-align: center;
+}
+
+.films span { 
+    font-weight: normal;
+    background-color: #000000;
+    padding-left: 20px;
+    font-size: 20px;
+    float: right;
+}
+
+.films p { 
+    border-bottom: 2px solid #6b8ba4;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: #000000;
+    text-shadow: 1px 1px #6b8ba4;
+}
+
+@media screen and (max-width: 1000px) {
+    #movie-list {   
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .films span { 
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #movie-list {   
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .films h2 {
+        padding: 0;
+    }
+    
+    .films p {
+        border: none;
+    }
+    
+    .films span {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #movie-list {   
+        width: 100%;
+        margin: 0;
+    }
+    
+    .films p {
+        text-align: center;
+    }
+}
