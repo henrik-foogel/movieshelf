@@ -37,9 +37,10 @@
 }
 
 #movie-list {   
+    display: block;
     background-color: #000000;
     width: 50%;
-    margin: 0 24.99999%;;
+    margin: 20px 24.99999% 0;
 }
 
 .film-list {

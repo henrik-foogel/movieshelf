@@ -46,6 +46,18 @@
 			"secondgenre": "Drama",
 			"rating": 9,
 			"shelf": "Steelbooks"
+		},
+		{
+			"id": 5,
+			"name": "The Good, The Bad, The Ugly",
+			"director": ["Sergio Leone"],
+			"cast": ["Clint Eastwood", "Lee van Cleef", "Eli Wallach"],
+			"music": ["Ennio Morricone"],
+			"year": 1967,
+			"genre": "Western",
+			"secondgenre": "Drama",
+			"rating": 10,
+			"shelf": "Western"
 		}
 	]
 }
