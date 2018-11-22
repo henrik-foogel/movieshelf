@@ -58,6 +58,18 @@
 			"secondgenre": "Drama",
 			"rating": 10,
 			"shelf": "Western"
+		},
+		{
+			"id": 6,
+			"name": "Rotweiler",
+			"director": ["Brian Yuzna"],
+			"cast": ["William Miller", "Irene Montalà", "Paulina Gálvez"],
+			"music": ["Ennio Morricone"],
+			"year": 2004,
+			"genre": "Horror",
+			"secondgenre": "Sci-Fi",
+			"rating": 2,
+			"shelf": "Horror/Thriller"
 		}
 	]
 }
